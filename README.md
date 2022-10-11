@@ -1,18 +1,15 @@
-
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack Template
+# Leaderboard
 
-> Build a simple yet powerful webpack boilerplate. Webpack is a static module bundler for modern JavaScript applications. It is intelligent enough to build all app dependencies based on file imports.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
 
 ## Built With
 
-- HTML
-- CSS
-- JavaScript
+- HTML & CSS
+- JavaScript(ES6)
 - Webpack
-
+- [HTML, CSS & JavaScript Linters](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 
 ## Getting Started
 
@@ -31,7 +28,8 @@ To get a local copy, run the fllowing command.
 
 ### Usage
 
-`npm start`
+- `npm run build`
+- `npm start`
 
 ## Authors
 
@@ -39,7 +37,13 @@ To get a local copy, run the fllowing command.
 
 - GitHub: [@KanzaTahreem](https://github.com/KanzaTahreem)
 - Twitter: [@kanza_tahreem](https://twitter.com/kanza_tahreem)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kanza-tahreem/)
+- LinkedIn: [Kanza Tahreem](https://www.linkedin.com/in/kanza-tahreem/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
