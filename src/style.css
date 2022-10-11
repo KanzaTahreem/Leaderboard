@@ -68,3 +68,27 @@ button {
   background-color: transparent;
   box-shadow: 2px 2px 0 0 black;
 }
+
+.add-scores {
+  width: 40%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 3em;
+  padding: 1em;
+  border: 2px solid;
+  box-shadow: 2px 2px 0 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submit-btn {
+  align-self: flex-end;
+}
