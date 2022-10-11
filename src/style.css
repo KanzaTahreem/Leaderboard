@@ -1,5 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
+  font-size: 2.8em;
+}
+
+main {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+.recent-scores {
+  width: 50%;
+}
+
+.recent-scores > header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  border: 2px solid;
+  border-radius: 3px;
+  box-shadow: 3px 3px 0 -1px black;
+}
+
+li {
+  padding: 0.8em;
+}
+
+li:nth-child(even) {
+  background-color: lightgrey;
+}
+
+button {
+  padding: 0.5em 1.5em;
+  background-color: transparent;
+  box-shadow: 2px 2px 0 0 black;
 }
