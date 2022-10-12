@@ -20,9 +20,15 @@
 
 ### Setup
 
-To get a local copy, run the fllowing command.
+To get a local copy, follow the steps below:
 
-- `git clone git@github.com:KanzaTahreem/Webpack-Template.git`
+1. Open your terminal
+2. Navigate to the directory where you want to clone the project.
+3. Clone the project using `git clone` or directly by running the following command
+
+   `git clone git@github.com:KanzaTahreem/Webpack-Template.git`
+
+4. Open your editor and follow the steps mentioned below
 
 ### Install
 
