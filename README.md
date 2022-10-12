@@ -13,14 +13,16 @@
 
 ## Getting Started
 
-To get a local copy, run the fllowing command.
-
-- `git clone git@github.com:KanzaTahreem/Webpack-Template.git`
-
 ### Prerequisites
 
 - node.js (10.13.0 (LTS))
 - git
+
+### Setup
+
+To get a local copy, run the fllowing command.
+
+- `git clone git@github.com:KanzaTahreem/Webpack-Template.git`
 
 ### Install
 
