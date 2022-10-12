@@ -26,7 +26,7 @@ To get a local copy, follow the steps below:
 2. Navigate to the directory where you want to clone the project.
 3. Clone the project using `git clone` or directly by running the following command
 
-   `git clone git@github.com:KanzaTahreem/Webpack-Template.git`
+   `git clone git@github.com:KanzaTahreem/Leaderboard.git`
 
 4. Open your editor and follow the steps mentioned below
 
