@@ -2,6 +2,8 @@ import getScores from './module/getScores.js';
 import showScore from './module/showScore.js';
 import './style.css';
 
+const refreshBtn = document.querySelector('.refresh-btn');
+
 window.onload = () => {
   let gameData = [];
   const loadInitialData = async () => {
@@ -9,4 +11,10 @@ window.onload = () => {
     showScore(gameData);
   };
   loadInitialData();
+
+  refreshBtn.addEventListener('click', async (e) => {
+    e.preventDefault();
+    gameData = await getScores();
+    showScore(gameData);
+  });
 };
