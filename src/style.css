@@ -66,6 +66,7 @@ li:nth-child(even) {
 button {
   padding: 0.5em 1.5em;
   background-color: transparent;
+  cursor: pointer;
   box-shadow: 2px 2px 0 0 black;
 }
 
