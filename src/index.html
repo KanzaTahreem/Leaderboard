@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
     <title>Leaderboard</title>
   </head>
   <body>
@@ -11,7 +15,10 @@
       <section class="recent-scores">
         <header>
           <h2>Recent Scores</h2>
-          <button type="button" class="refresh-btn">Refresh</button>
+          <button type="button" class="refresh-btn btn">
+            <i class="fa-solid fa-arrows-rotate btn-icon"></i>
+            <span>Refresh</span>
+          </button>
         </header>
         <ul class="scores-list"></ul>
       </section>
@@ -34,7 +41,10 @@
             placeholder="Add your score"
           />
         </form>
-        <button type="submit" class="submit-btn">Submit</button>
+        <button type="submit" class="submit-btn btn">
+          <i class="fa-regular fa-circle-check btn-icon"></i>
+          <span>Submit</span>
+        </button>
       </section>
     </main>
   </body>
