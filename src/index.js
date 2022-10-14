@@ -4,6 +4,9 @@ import showScore from './module/showScore.js';
 import './style.css';
 
 const refreshBtn = document.querySelector('.refresh-btn');
+const submitBtn = document.querySelector('.submit-btn');
+const userEl = document.querySelector('.user');
+const scoreEl = document.querySelector('.score');
 
 window.onload = () => {
   let gameData = [];
@@ -18,10 +21,6 @@ window.onload = () => {
     gameData = await getScores();
     showScore(gameData);
   });
-
-  const submitBtn = document.querySelector('.submit-btn');
-  const userEl = document.querySelector('.user');
-  const scoreEl = document.querySelector('.score');
 
   submitBtn.addEventListener('click', (e) => {
     e.preventDefault();
