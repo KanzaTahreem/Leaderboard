@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
+> The leaderboard website displays scores submitted by different players. Built with _HTML_, _CSS_, _JavaScript(ES6)_, notably _modules_, and _Webpack_. The application allows users to submit their scores. It uses data from an API to display scores for the game by sending and receiving data from/to the Leaderboard API. All data is preserved to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
 ## Built With
 
@@ -10,6 +10,10 @@
 - JavaScript(ES6)
 - Webpack
 - [HTML, CSS & JavaScript Linters](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
+
+## Live Demo
+
+[Live Demo Link](https://kanzatahreem.github.io/Leaderboard/)
 
 ## Getting Started
 
