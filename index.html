@@ -3,10 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wbpack Exercise</title>
-    <script defer src="main.js"></script>
-  </head>
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
+    <title>Leaderboard</title>
+  <script defer src="main.js"></script></head>
   <body>
     <h1>Leaderboard</h1>
+    <main>
+      <section class="recent-scores">
+        <header>
+          <h2>Recent Scores</h2>
+          <button type="button" class="refresh-btn btn">
+            <i class="fa-solid fa-arrows-rotate btn-icon"></i>
+            <span>Refresh</span>
+          </button>
+        </header>
+        <ul class="scores-list"></ul>
+      </section>
+
+      <section class="add-scores">
+        <header>
+          <h2>Add your Scores</h2>
+        </header>
+        <form action="">
+          <input
+            type="text"
+            name="name"
+            class="user"
+            placeholder="Add your name"
+          />
+          <input
+            type="number"
+            name="score"
+            class="score"
+            placeholder="Add your score"
+          />
+        </form>
+        <button type="submit" class="submit-btn btn">
+          <i class="fa-regular fa-circle-check btn-icon"></i>
+          <span>Submit</span>
+        </button>
+      </section>
+    </main>
   </body>
 </html>
