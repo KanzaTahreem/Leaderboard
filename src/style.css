@@ -13,14 +13,14 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family: 'Acme', sans-serif;
-  background-color: #06283d;
+  background-color: #483838;
   letter-spacing: 1px;
 }
 
 h1 {
   font-size: 2.8em;
   font-weight: 500;
-  color: crimson;
+  color: #d6cda4;
   filter: drop-shadow(2px 4px 6px black);
 }
 
@@ -29,10 +29,10 @@ main {
   width: 75%;
   justify-content: space-between;
   margin-top: 3em;
-  box-shadow: 0 0 13px #8b1f42;
+  box-shadow: 0 0 13px;
   padding: 1em;
   border-radius: 6px;
-  background-color: #850e3557;
+  background-color: #f2d388bd;
 }
 
 section {
@@ -47,8 +47,8 @@ header {
 h2 {
   font-size: 1.8em;
   font-weight: 500;
-  color: crimson;
-  filter: drop-shadow(2px 4px 6px black);
+  color: #1c6758;
+  filter: drop-shadow(0 0 2px);
 }
 
 .recent-scores {
@@ -66,7 +66,7 @@ h2 {
 ul {
   list-style-type: none;
   border-radius: 5px;
-  color: #ffb3b3;
+  color: white;
 }
 
 li {
@@ -74,24 +74,21 @@ li {
   margin: 10px;
   padding: 0.8em 1em;
   border-radius: 5px;
-  background-color: #850e35;
+  background-color: #1c6758;
   justify-content: space-between;
   box-shadow: 0 15px 10px -11px black;
 }
 
 li:first-child {
-  color: #ffb600;
-  background-color: rgb(218 165 32 / 68%);
+  background-color: #ffb600ad;
 }
 
 li:nth-child(2) {
-  color: silver;
-  background-color: #c0c0c073;
+  background-color: #c0c0c0;
 }
 
 li:nth-child(3) {
-  color: brown;
-  background-color: #9326265c;
+  background-color: brown;
 }
 
 button {
@@ -115,10 +112,12 @@ input {
   margin-bottom: 3em;
   padding: 1em;
   background-color: transparent;
-  border: 1px solid #850e35;
+  border: 1px solid #1c6758;
   box-shadow: 0 10px 8px -7px black;
   border-radius: 5px;
-  color: #ffb3b3;
+  color: #483838;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
 input:last-child {
@@ -126,7 +125,7 @@ input:last-child {
 }
 
 input:focus {
-  color: #ffb3b3;
+  color: #1c6758;
   outline: none;
 }
 
@@ -152,8 +151,8 @@ input::placeholder {
   transition: 1s;
   text-align: center;
   font-size: 1.3em;
-  color: #ffb3b3;
-  filter: drop-shadow(1px 0 2px crimson);
+  color: #1c6758;
+  filter: drop-shadow(1px 0 2px);
 }
 
 .btn:hover {
@@ -170,8 +169,8 @@ input::placeholder {
 
 .btn-icon {
   font-size: 1.6em;
-  color: #ffb3b3;
-  filter: drop-shadow(1px 0 2px crimson);
+  color: #1c6758;
+  filter: drop-shadow(1px 0 2px);
 }
 
 ::-webkit-scrollbar {
@@ -184,10 +183,10 @@ input::placeholder {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #8b1f42;
+  background: #3d8361;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #8b1f41b1;
+  background: #3d8361af;
 }
