@@ -9,11 +9,11 @@
 - HTML & CSS
 - JavaScript(ES6)
 - Webpack
-- [HTML, CSS & JavaScript Linters](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
+- [Linters](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 
 ## Live Demo
 
-[Live Demo Link](https://kanzatahreem.github.io/Leaderboard/)
+Live at [Leaderboard](https://kanzatahreem.github.io/Leaderboard/)
 
 ## Getting Started
 
